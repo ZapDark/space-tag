@@ -1,3 +1,31 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Rust ignores
+**/target/
+**/*.rs.bk
+**/Cargo.lock
+
+# Rust build artifacts
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# Debug files
+*.pdb
+*.dSYM/
+*.su
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment files
+.env

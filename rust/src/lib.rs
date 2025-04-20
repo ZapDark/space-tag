@@ -1,4 +1,4 @@
-fn main() -> void {
+fn main() {
     let mut s = String::new();
     s.push_str("Hello, ");
     s.push_str("world!");
