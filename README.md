@@ -10,3 +10,6 @@ I made this project to experiment with `spacetimedb` and understand it's strengt
 - [ ] Implement tables in `spacetimedb` module
 - [ ] Architect `spacetimedb` reducers
 - [ ] Implement `spacetimedb` reducers
+- [ ] Make this a command `spacetime publish --project-path server space-tag`
+- [ ] Make this a tail command `spacetime logs space-tag`
+- [ ] Make this a command `spacetime generate --lang rust --out-dir rust/src/module_bindings --project-path server`
