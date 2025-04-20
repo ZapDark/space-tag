@@ -1,5 +1,5 @@
 [package]
-name = "space-tag"
+name = "game"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,3 +10,7 @@ crate-type = ["cdylib"]  # Compile this crate to a dynamic C library.
 godot = "0.2.4"
 spacetimedb-sdk = "1.0"
 hex = "0.4"
+
+[[bin]]
+name = "game"
+path = "src/lib.rs"
