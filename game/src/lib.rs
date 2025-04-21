@@ -1,6 +1,9 @@
-fn main() {
-    let mut s = String::new();
-    s.push_str("Hello, ");
-    s.push_str("world!");
-    println!("{}", s);
-}
+mod module_bindings;
+mod player;
+mod spacetime_manager;
+use godot::prelude::*;
+
+struct SpaceTagExtension;
+
+#[gdextension]
+unsafe impl ExtensionLibrary for SpaceTagExtension {}
